@@ -1,26 +1,7 @@
-import _ from 'lodash';
-import styles from './style.css';
-import Book from './book.png';
+import './styles.scss';
+import React from 'react';
+import ReactDOM from 'react-dom/client';
 
-function component() {
-  const element = document.createElement('div');
+const root = ReactDOM.createRoot(document.getElementById('root'));
 
-  // Lodash, currently included via a script, is required for this line to work
-  element.innerHTML = _.join(['Hello', 'webpack'], ' ');
-  element.classList.add('hello');
-
-  console.log('styles',styles);
-
-  // Add the image to our existing div.
-  const myIcon = new Image();
-  myIcon.src = Book;
-
-  element.appendChild(myIcon);
-
-
-  console.log('Book',Book);
-
-  return element;
-}
-
-document.body.appendChild(component());
+root.render(<h1>Привет, мир!</h1>);
