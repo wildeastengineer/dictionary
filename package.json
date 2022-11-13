@@ -1,0 +1,31 @@
+{
+  "name": "dictionary",
+  "version": "0.1.0",
+  "description": "eng->rus dictionary",
+  "private": true,
+  "scripts": {
+    "build": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wildeastengineer/dictionary.git"
+  },
+  "author": "wee",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wildeastengineer/dictionary/issues"
+  },
+  "homepage": "https://github.com/wildeastengineer/dictionary#readme",
+  "dependencies": {
+    "lodash": "^4.17.21",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.25",
+    "@types/react-dom": "^18.0.8",
+    "webpack": "^5.75.0",
+    "webpack-cli": "^4.10.0"
+  }
+}
