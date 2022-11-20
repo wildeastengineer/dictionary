@@ -24,6 +24,13 @@ module.exports = {
   optimization: {
     runtimeChunk: 'single',
   },
+  resolve: {
+    alias: {
+      '@': path.resolve(__dirname, 'src'),
+      '@components': path.resolve(__dirname, 'src/components'),
+      '@services': path.resolve(__dirname, 'src/services'),
+    },
+  },
   plugins: [
     new HtmlWebpackPlugin({
       template: './src/index.html'
