@@ -2,6 +2,12 @@
 
 ---
 
+# Tools
+
+- [tailwindcss](https://tailwindcss.com/docs/installation)
+  - [headlessui](https://headlessui.com/)
+  - [heroicons](https://heroicons.com/)
+
 # Resources
 
 - Dictionary icons created by [srip - Flaticon](https://www.flaticon.com/free-icons/dictionary)

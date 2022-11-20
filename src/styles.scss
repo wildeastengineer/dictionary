@@ -1,4 +1,8 @@
-body {
-    color: #c4526c;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body,
+input {
     font-family: 'Nunito', 'Noto Sans', sans-serif;
 }
